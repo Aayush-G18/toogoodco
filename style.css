@@ -63,13 +63,16 @@ body {
 #nav-part2 #links a {
     text-transform: uppercase;
 
-    text-decoration: none;
+    /* text-decoration: none; */
     color: #333;
     font-weight: 500;
     font-size: 14px;
     margin: 0 20px;
 }
 
+#nav-part2 #links a:hover{
+    background-color: rgb(200, 200, 200);
+}
 #icons {
     padding: 10px;
     border-radius: 50px;
